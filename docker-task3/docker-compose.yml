@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  nginx:
+    image: mynginx-custom
+    container_name: nginx-task3
+    ports:
+      - "80:80"
+    volumes:
+      - /var/opt/nginx:/usr/share/nginx/html

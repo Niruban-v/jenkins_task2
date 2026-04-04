@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    container_name: mysite-compose
+    ports:
+      - "80:80"

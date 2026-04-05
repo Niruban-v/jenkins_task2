@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "Hello from Jenkins CI/CD"
 date
-New update
+echo "New line added"
